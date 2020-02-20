@@ -1,0 +1,364 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body,
+html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.container {
+  margin-left: -8px;
+}
+
+/**************************************************************************
+* Navgiation
+*/
+
+#logo a {
+  margin-right: 10px;
+  color: white;
+  padding: 7px;
+  text-decoration: none;
+  border: 1px solid white;
+  font-size: 1.2em;
+}
+
+#logo {
+  margin-top: 18px;
+}
+
+.nav a:hover {
+  color: red !important;
+  padding: 7px;
+  background-color: white;
+  border-radius: 360px;
+  -webkit-border-radius: 360px;
+  -moz-border-radius: 360px;
+  -ms-border-radius: 360px;
+  -o-border-radius: 360px;
+}
+
+.flex-container.nav {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: green;
+  width: 100%;
+  margin-top: -20px;
+  box-shadow: 0 0 5px black;
+  justify-content: space-between;
+}
+
+.nav .nav-items {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  text-decoration: none;
+  padding-right: 5px;
+  color: white;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+.flex-container.nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.socialMediaIcons {
+  float: right;
+}
+
+.socialMediaIcons ul {
+  height: 100%;
+}
+
+.facebook-btn a {
+  display: none;
+  margin-top: 10px;
+  padding-right: 10px;
+  min-height: 40px;
+  width: 40px;
+  background-position: top;
+  background-size: contain;
+}
+
+.phoneNumber a {
+  font-size: 1.3em;
+  height: 100%;
+
+}
+
+.phoneNumber {
+  margin-top: 18px;
+  margin-right: 15px;
+}
+
+/**************************************************************************
+* Front Image
+*/
+.flex-container.frontImage {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/pastabowl.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  padding: auto;
+
+}
+
+.frontImageBox {
+  min-height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+
+.frontImageBox .frontImageBox-title {
+  text-align: center;
+  font-size: 15em;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 3px 3px #000000;
+}
+
+/**************************************************************************
+* Section 1
+*/
+.flex-container.section-1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-evenly;
+  overflow: scroll;
+  min-height: 100%;
+  background-image: url("./images/coffee.jpg");
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  background-color: red;
+  -webkit-box-shadow: inset 0px 37px 79px -42px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: inset 0px 37px 79px -42px rgba(0, 0, 0, 0.72);
+  box-shadow: inset 0px 37px 79px -42px rgba(0, 0, 0, 0.72);
+}
+
+.lunch-menu-btn {
+  margin-top: 50px !important;
+}
+
+.lunch-menu-btn,
+.dinner-menu-btn {
+  margin-top: 35px;
+  margin-left: 107px;
+  height: 60px;
+  width: 140px;
+  color: white;
+}
+
+.lunch-menu-btn a,
+.dinner-menu-btn a {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 15px;
+  -webkit-box-shadow: -1px 13px 25px 8px rgba(0, 0, 0, 0.856);
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.877);
+
+}
+
+.lunch-menu-btn a:hover,
+.dinner-menu-btn a:hover {
+  color: white !important;
+  padding: 20px;
+  background-color: red;
+  border-radius: 360px;
+  -webkit-border-radius: 360px;
+  -moz-border-radius: 360px;
+  -ms-border-radius: 360px;
+  -o-border-radius: 360px;
+}
+
+
+
+.section-1 .col {
+  margin: 13px;
+  margin-top: 30px;
+  padding: 7px;
+  min-height: 375px;
+  width: 375px;
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+  -webkit-box-shadow: -1px 13px 25px 8px rgba(0, 0, 0, 0.49);
+  box-shadow: -1px 13px 25px 8px rgba(0, 0, 0, 0.49);
+}
+
+.section-1 .col .col-title {
+  font-size: 2em;
+  padding-top: 15px;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.164);
+  margin-bottom: 35px;
+}
+
+
+.hoursofoperation ul {
+  font-size: 1.3em;
+  margin-top: -10px !important;
+  margin-left: -25px;
+  list-style-type: none !important;
+
+}
+
+.hoursofoperation ul li {
+  padding-bottom: 7px !important;
+  text-decoration: none;
+  text-align: center;
+}
+
+.aboutUs {
+  font-size: 1.2em;
+  line-height: 2em;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/**************************************************************************
+* Section 2
+*/
+
+.flex-container.section-2 {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 100%;
+  min-height: 350px;
+  background-color: white;
+  justify-content: center;
+}
+
+.contactUs {
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  width: 50%;
+  min-width: 375px;
+
+}
+
+.contactUs ul {
+  list-style-type: none;
+}
+
+.googlemaps {
+  width: 50%;
+  min-width: 375px;
+  padding: 15px;
+
+}
+
+/**************************************************************************
+* Footer
+*/
+
+.flex-container.footer {
+  display: flex;
+  position: relative;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+  color: white;
+  font-size: .9em;
+  background-color: green;
+}
+
+
+/**************************************************************************
+* Responsive
+*/
+
+@media only screen and (max-width: 850px) {
+
+
+  .flex-container.frontImage {
+    background-position: center;
+    justify-content: center;
+
+  }
+
+  .flex-container.frontImage .frontImageBox .frontImageBox-title {
+    font-size: 8em;
+    text-align: center;
+    margin-top: -30px;
+    width:100%;
+  }
+
+
+  #logo {
+    display: visible !important;
+  }
+
+
+  .nav-items {
+    display: none;
+
+  }
+
+  .contactUs {
+    margin-left: -55px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  .flex-container.frontImage .frontImageBox{
+    margin-top: -25px !important;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 325px) {
+
+  .dinner-menu-btn a,
+  .lunch-menu-btn a {
+    margin-left: -25px !important;
+
+  }
+
+
+
+}
