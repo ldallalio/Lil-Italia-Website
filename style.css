@@ -97,5 +97,11 @@ ul {
 
 .googlemaps{
   height:100%;
-  widht:100%;
+  width:100%;
+}
+
+.footer, .footer a{
+  padding:1em;
+  color:white;
+  background-color:#231F20 ;
 }
