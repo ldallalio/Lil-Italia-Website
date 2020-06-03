@@ -1,6 +1,10 @@
 
 body{
+  overflow-y:scroll;
   font-family: 'Open Sans', sans-serif;
+}
+body::-webkit-scrollbar{
+  display:none;
 }
 .navbar {
   background-color: #231F20;
@@ -55,7 +59,7 @@ a#callNow:hover {
 }
 
 .row {
-margin:3em;
+margin-bottom:1.5em;
 }
 .card {
   display:flex;
@@ -92,7 +96,7 @@ ul {
   padding:1em;
  }
 .col-md-6{
- padding:1em;
+ padding:2em;
 }
 
 .googlemaps{
