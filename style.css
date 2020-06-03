@@ -68,7 +68,7 @@ margin-bottom:1.5em;
   margin:auto;
   height: 300px;
   width:350px;
-  box-shadow: #00000075 1px 1px 10px 0px;
+  border: black 1px solid;
 }
 
 .card h2 {
