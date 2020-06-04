@@ -1,4 +1,9 @@
 
+.container-fluid {
+  overflow: hidden;
+  margin:0px;
+  padding: 0px;
+}
 body{
   overflow-y:scroll;
   font-family: 'Open Sans', sans-serif;
